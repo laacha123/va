@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Initialize Socket.IO connection
-    const socket = io('http://34.45.92.197:5000/', {
+    const socket = io('https://va.wordsystech.com', {
         withCredentials: true
     });  
     // Replace with your actual Flask app URL
